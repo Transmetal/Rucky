@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Splash screen -->
+    <!-- Init Screen -->
+    <string name="init_next">ДАЛІ</string>
+    <string name="init_skip">ПРОПУСТИТИ</string>
+    <string name="init_agree">ПОГОДЖУЙТЕ</string>
+    <string name="init_start">НАЗАД</string>
+    <string name="slideDesc1">Перетворіть ваш пристрій на Гумову грудя!</string>
+    <string name="slideTitle2">USB-кабель</string>
+    <string name="slideDesc2">Проведений USB-інтерфейс для запуску атаки!</string>
+    <string name="slideTitle3">Мережева сокет</string>
+    <string name="slideDesc3">Інтерфейси сокету для запуску атаки за допомогою підтримуваних зовнішніх інструментів!</string>
+    <string name="slideTitle4">Умови обмеженої відповідальності</string>
+    <string name="slideDesc4">Користувач додатку несе виключно відповідальність за збитки. Не можна нести відповідальність за шкоду, виконану цією програмою! Будьте обережні при використанні програми і не використовуйте це, щоб викликати шкоду іншим!</string>
+    <string name="slideTitle5">Політика конфіденційності</string>
+    <string name="slideDesc5">Дані будь-якої форми не зібрано, не використовуються та не продано! Деякі дозволи, які можуть підвищити проблеми конфіденційності, запитують лише про роботу певних функцій у програмі і не збирають дані! Ваша конфіденційність поважається!</string>
+    <string name="slideTitle6">Дозвіл додатку</string>
+    <string name="slideDesc6">Будь ласка, надайте додатку необхідний дозвіл для роботи!</string>
+    <!-- Update screen -->
+    <string name="update_new">Нова доступна версія оновлення: </string>
+    <string name="update_hash_error">Підпис файлу неправильний! Неможливо оновити.</string>
+    <string name="update_activity">Оновлення прив’язки</string>
+    <string name="update_version">Версія</string>
+    <string name="update_version_nightly">Нічна версія</string>
+    <string name="update_changelog">Список змін</string>
+    <string name="update_status">Оновити статус</string>
+    <string name="update_action">Завантажити та встановити оновлення</string>
+    <string name="update_downloading">Завантаження оновлення</string>
+    <string name="install_update">Застосування оновлення</string>
+    <!-- Editor screen -->
+    <string name="exit_dialog">Ви хотіли б приховати чи вийти з програми?</string>
+    <string name="btn_exit">Вийти</string>
+    <string name="btn_back">Приховати</string>
+    <string name="unlock">Розблокувати додаток</string>
+    <string name="auth">Підтвердити авторизацію</string>
+    <string name="update">Оновити</string>
+    <string name="setting">Налаштування</string>
+    <string name="codeHint">Введіть або завантажте гумові каченята тут</string>
+    <string name="loadBtn">Загрузити</string>
+    <string name="saveBtn">Зберегти</string>
+    <string name="delBtn">Видалити</string>
+    <string name="runBtn">Ран</string>
+    <string name="confBtn">Налаштування</string>
+    <string name="btn_continue">Продовжити</string>
+    <string name="root_err">Необхідний доступ до root-прав для атаки USB!</string>
+    <string name="kernel_err">"Ядро не підтримується для атаки на USB!"</string>
+    <string name="vm">Віртуальне середовище не підтримується!</string>
+    <!-- Config screen -->
+    <string name="config_activity">Твіки</string>
+    <string name="config_status_usb_on">USB під’єднано</string>
+    <string name="config_status_usb_off">USB від’єднано</string>
+    <string name="config_status_net_on">Мережу Socket підключена</string>
+    <string name="config_status_net_off">Мережеву сокет від\'єднано</string>
+    <string name="socket_address">Введіть IP та адресу порту Socket</string>
+    <!-- HID config screen -->
+    <string name="hid_activity">Конфігурація HID</string>
+    <string name="hid_download">Звантажити</string>
+    <string name="hid_update">Оновити</string>
+    <string name="hid_edit">Редагувати</string>
+    <string name="hid_delete">Видалити</string>
+    <!-- Keylist screen -->
+    <string name="key_title">Назва ключа</string>
+    <string name="key_character">Символ ключа</string>
+    <string name="key_code">Код ключа</string>
+    <string name="key_ctrl">Ctrl ключ</string>
+    <string name="key_alt">Альтернативний Кей</string>
+    <string name="key_shift">Клавіша Shift</string>
+    <string name="key_meta">Meta Key</string>
+    <string name="keycode">Код ключа</string>
+    <string name="modcode">Modifier Code</string>
+    <string name="key_details">Деталі ключа</string>
+    <!-- Setting screen -->
+    <string name="setting_general">Загальні налаштування</string>
+    <string name="dark_theme_title">Нічний режим</string>
+    <string name="dark_theme_summary">Встановити темну тему</string>
+    <string name="hide_icon_title">Приховати/вимкнути іконку лаунчера</string>
+    <string name="hide_icon_summary">Набрати *#*#78259#*#* для запуску. На Android 10 onwards буде вимкнуто піктограму, але не приховано.</string>
+    <string name="delete_dep_title">Видалити додаток</string>
+    <string name="delete_dep_summary">Очистіть та видаліть програму.</string>
+    <string name="settings_sec_title">Розширена безпека</string>
+    <string name="settings_sec_desc">Увімкнути шифрування і замикання сценарію файлів екрана.</string>
+    <string name="setting_device">Налаштування режиму атаки</string>
+    <string name="configfs_title">Автоконфігурація ConfigFS</string>
+    <string name="configfs_summary">Буде налаштувати HID на пристроях, що підтримуються ConfigFS. Може зламати параметр USB.</string>
+    <string name="hid_choice_title">HID з можливістю налаштування</string>
+    <string name="hid_choice_summary">Перемикач між споконвісійним HID та настроюваним HID</string>
+    <string name="hid_title">HID мови</string>
+    <string name="hid_summary">Завантажити додаткові мови HID або спроектувати нові розкладки HID.</string>
+    <string name="settings_usb_title">Запуск USB-підключення</string>
+    <string name="settings_usb_desc">Запустити кнопку запуску атаки при підключенні USB.</string>
+    <string name="settings_net_title">Запуск підключення до мережі Socket</string>
+    <string name="settings_net_desc">Запустити кнопку запуску атаки при підключенні мережі Socket.</string>
+    <string name="setting_about">Інформація</string>
+    <string name="setting_developer_title">Розробник</string>
+    <string name="settings_version_title">Версія</string>
+    <string name="settings_arch_title">Архітектура</string>
+    <string name="settings_lic_title">Ліцензія</string>
+    <string name="settings_support">Підтримка</string>
+    <string name="settings_git_title">GitHub Issues</string>
+    <string name="settings_git_desc">Натисніть, щоб додати задачі або зробити запит про функцію.</string>
+    <string name="settings_locale_title">Локалізація</string>
+    <string name="settings_locale_desc">Допомогти з локалізацією додатку.</string>
+    <string name="release">Дистрибуція</string>
+    <string name="releaseNetHunter">Магазин додатків NetHunter</string>
+    <string name="releaseGitHub">GitHub версія</string>
+    <string name="releaseGitHubNightly">GitHub нічно</string>
+    <string name="releaseTest">Налагодження релізу</string>
+    <string name="releaseOthers">Непідтримуваний реліз</string>
+    <string name="btn_cancel">Скасувати</string>
+    <string name="btn_save">Зберегти</string>
+    <string name="file_saved">збережено</string>
+    <string name="title_open_file">Відкрити файл</string>
+    <string name="title_delete_file">Видалити файл</string>
+    <string name="file_deleted">вилучено</string>
+    <string name="file_name">Назва файлу</string>
+    <string name="title_save_file">Зберегти</string>
+    <string name="hid_version">Версія: %d</string>
+    <string-array name="modes">
+        <item>USB-кабель</item>
+        <item>Мережева сокет</item>
+    </string-array>
+    <string-array name="hidLanguages">
+        <item>Американська англійська</item>
+        <item>Турецька</item>
+        <item>Шведська</item>
+        <item>Slovenian</item>
+        <item>Російська</item>
+        <item>Португальська</item>
+        <item>Норвезька</item>
+        <item>Італійська</item>
+        <item>Хорватська</item>
+        <item>Англійська Велика Британія</item>
+        <item>Французька</item>
+        <item>Фінська</item>
+        <item>Іспанська</item>
+        <item>Данська</item>
+        <item>Німецька</item>
+        <item>Французька канадська</item>
+        <item>Португальська бразильська</item>
+        <item>Білоруська</item>
+        <item>Угорська</item>
+    </string-array>
+    <string-array name="dark_theme_list">
+        <item>Авто</item>
+        <item>День</item>
+        <item>Ніч</item>
+    </string-array>
+</resources>

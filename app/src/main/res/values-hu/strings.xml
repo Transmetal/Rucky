@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Splash screen -->
+    <!-- Init Screen -->
+    <string name="init_next">KÖVETKEZŐ</string>
+    <string name="init_skip">SKIP</string>
+    <string name="init_start">HACK</string>
+    <string name="slideDesc1">Fordítsd el a szerkezetet egy gumikacinak!</string>
+    <!-- Update screen -->
+    <string name="update_version">Változat</string>
+    <!-- Editor screen -->
+    <string name="update">Frissítés</string>
+    <string name="setting">Beállítások</string>
+    <string name="codeHint">Itt írja be vagy töltse be a gumikacsákat</string>
+    <string name="loadBtn">Betöltés</string>
+    <string name="saveBtn">Mentés</string>
+    <string name="delBtn">Törlés</string>
+    <string name="runBtn">Futtatás</string>
+    <!-- Config screen -->
+    <!-- HID config screen -->
+    <string name="hid_update">Frissítés</string>
+    <string name="hid_delete">Törlés</string>
+    <!-- Keylist screen -->
+    <!-- Setting screen -->
+    <string name="setting_general">Általános</string>
+    <string name="delete_dep_title">Alkalmazás eltávolítása</string>
+    <string name="delete_dep_summary">Az alkalmazás törlése és eltávolítása.</string>
+    <string name="settings_sec_title">Előzetes biztonság</string>
+    <string name="settings_sec_desc">Engedélyezze a parancsfájl titkosítását és a képernyőzárolást.</string>
+    <string name="setting_about">Információ</string>
+    <string name="setting_developer_title">Fejlesztő</string>
+    <string name="settings_version_title">Változat</string>
+    <string name="settings_arch_title">Építészet</string>
+    <string name="settings_lic_title">Licenc</string>
+    <string name="settings_support">Támogatás</string>
+    <string name="settings_git_title">GitHub problémák</string>
+    <string name="settings_git_desc">Kattintson ide kérdés vagy szolgáltatás kérés hozzáadásához.</string>
+    <string name="settings_locale_title">Honosítás</string>
+    <string name="releaseNetHunter">NetHunter App Store</string>
+    <string name="releaseGitHub">GitHub kiadás</string>
+    <string name="releaseTest">Hibakeresési kiadás</string>
+    <string name="releaseOthers">Nem támogatott kiadás</string>
+    <string name="btn_save">Mentés</string>
+</resources>

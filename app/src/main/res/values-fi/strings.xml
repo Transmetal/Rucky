@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Splash screen -->
+    <!-- Init Screen -->
+    <string name="init_next">SEURAAVA</string>
+    <string name="init_skip">OHITA</string>
+    <string name="init_agree">HYVÄKSYMINEN</string>
+    <string name="init_start">HACK</string>
+    <string name="slideDesc1">Laita laite Rubber Duckylle.</string>
+    <string name="slideTitle2">USB Kaapeli</string>
+    <string name="slideDesc2">USB-langallinen käyttöliittymä hyökkäyksen käynnistämiseen!</string>
+    <string name="slideTitle3">Verkon Socket</string>
+    <string name="slideDesc3">Wi-Fi-pohjaiset pistorasiat hyökkäysten käynnistämiseksi tuettujen ulkoisten työkalujen avulla!</string>
+    <string name="slideTitle4">Vastuuvapauslauseke</string>
+    <string name="slideDesc4">Sovelluksen käyttäjä on yksin vastuussa aiheutuneista vahingoista. Mitään muuta tahoa ei voida pitää vastuussa tällä sovelluksella tehdyistä vahingoista! Noudata varovaisuutta sovellusta käytettäessä ja älä käytä tätä aiheuttaaksesi haittaa muille!</string>
+    <string name="slideTitle5">Yksityisyyden Suoja</string>
+    <string name="slideDesc5">Mitään tietoja mistään lomakkeesta ei kerätä, käytetä ja myydä! Joitakin käyttöoikeuksia, jotka voivat herättää yksityisyyttä koskevia huolenaiheita, pyydetään vain käsittelemään tiettyjä ominaisuuksia sovelluksessa ja ei kerätä tietoja! Yksityisyytesi on kunnioitettu!</string>
+    <string name="slideTitle6">Sovelluksen Käyttöoikeus</string>
+    <string name="slideDesc6">Anna sovellukselle tarvittava käyttöoikeus!</string>
+    <!-- Update screen -->
+    <string name="update_new">Uusi Päivitys Saatavilla Oleva Versio: </string>
+    <string name="update_hash_error">Allekirjoitus Mändäys! Päivitys ei onnistu.</string>
+    <string name="update_activity">Rucky Päivitys</string>
+    <string name="update_version">Versio</string>
+    <string name="update_version_nightly">Nightly-versio</string>
+    <string name="update_changelog">Muutosloki</string>
+    <string name="update_status">Päivitä Tila</string>
+    <string name="update_action">Lataa ja asenna päivitys</string>
+    <string name="update_downloading">Ladataan Päivitystä</string>
+    <string name="install_update">Toteutetaan Päivitystä</string>
+    <!-- Editor screen -->
+    <string name="exit_dialog">Haluatko piilottaa tai poistaa sovelluksen?</string>
+    <string name="btn_exit">Poistuminen</string>
+    <string name="btn_back">Piilota</string>
+    <string name="unlock">Avaa Sovellus</string>
+    <string name="auth">Vahvista todennus</string>
+    <string name="update">Päivitä</string>
+    <string name="setting">Asetukset</string>
+    <string name="codeHint">Kirjoita tai lataa kumiankkasankit tähän</string>
+    <string name="loadBtn">Lataa</string>
+    <string name="saveBtn">Tallenna</string>
+    <string name="delBtn">Poista</string>
+    <string name="runBtn">Juokse</string>
+    <string name="confBtn">Asetukset</string>
+    <string name="btn_continue">Jatka</string>
+    <string name="root_err">Root Access Vaaditaan USB Kaapeli Attack!</string>
+    <string name="kernel_err">"Kernel Ei Tueta USB Kaapeli Attack!"</string>
+    <string name="vm">Virtuaalinen ympäristö ei ole tuettu!</string>
+    <!-- Config screen -->
+    <string name="config_activity">Tehosteet</string>
+    <string name="config_status_usb_on">Usb Yhdistetty</string>
+    <string name="config_status_usb_off">Usb Yhteys Katkaistu</string>
+    <string name="config_status_net_on">Verkon Socket Yhdistetty</string>
+    <string name="config_status_net_off">Verkkopeli Yhteys Katkaistu</string>
+    <string name="socket_address">Syötä Socket IP ja satamaosoite</string>
+    <!-- HID config screen -->
+    <string name="hid_activity">HID-Config</string>
+    <string name="hid_download">Lataa</string>
+    <string name="hid_update">Päivitä</string>
+    <string name="hid_edit">Muokkaa</string>
+    <string name="hid_delete">Poista</string>
+    <!-- Keylist screen -->
+    <string name="key_title">Avainnimi</string>
+    <string name="key_character">Avainmerkki</string>
+    <string name="key_code">Avainkoodi</string>
+    <string name="key_ctrl">Ctrl-avain</string>
+    <string name="key_alt">Alt-avain</string>
+    <string name="key_shift">Vaihto avain</string>
+    <string name="key_meta">Meta-avain</string>
+    <string name="keycode">Avainkoodi</string>
+    <string name="modcode">Muutoskoodi</string>
+    <string name="key_details">Keskeiset tiedot</string>
+    <!-- Setting screen -->
+    <string name="setting_general">Yleistä</string>
+    <string name="dark_theme_title">Yötila</string>
+    <string name="dark_theme_summary">Aseta tumma teema</string>
+    <string name="hide_icon_title">Piilota/Poista Käytöstä Käynnistinkuvake</string>
+    <string name="hide_icon_summary">Valitse *#*#78259#*#* käynnistääksesi. Android 10:ssä kuvake poistetaan käytöstä, mutta ei piilotettu.</string>
+    <string name="delete_dep_title">Poista App-asennus</string>
+    <string name="delete_dep_summary">Puhdista ja poista sovellus.</string>
+    <string name="settings_sec_title">Ennakkosuojaus</string>
+    <string name="settings_sec_desc">Ota komentotiedoston salaus ja näytön lukitus käyttöön.</string>
+    <string name="setting_device">Hyökkäystilan Asetukset</string>
+    <string name="configfs_title">Määritä Asetukset Automaattisesti</string>
+    <string name="configfs_summary">Määrittää HID ConfigFS tuetut laitteet. Voi rikkoa USB-asetus.</string>
+    <string name="hid_choice_title">Mukautettu HID</string>
+    <string name="hid_choice_summary">Vaihda välillä Legacy HID ja Customisable HID</string>
+    <string name="hid_title">HID-kieli</string>
+    <string name="hid_summary">Lataa lisää HID-kieliä tai suunnitella uusia HID-asetteluja.</string>
+    <string name="settings_usb_title">Usb Connect Käynnistys</string>
+    <string name="settings_usb_desc">Suorita painike käynnistää hyökkäyksen, kun USB on kytketty.</string>
+    <string name="settings_net_title">Network Socket Connect Launch</string>
+    <string name="settings_net_desc">Suorita painike käynnistää hyökkäyksen, kun Network Socket on yhdistetty.</string>
+    <string name="setting_about">Tietoja</string>
+    <string name="setting_developer_title">Kehittäjä</string>
+    <string name="settings_version_title">Versio</string>
+    <string name="settings_arch_title">Arkkitehtuuri</string>
+    <string name="settings_lic_title">Lisenssi</string>
+    <string name="settings_support">Tuki</string>
+    <string name="settings_git_title">GitHub-ongelmat</string>
+    <string name="settings_git_desc">Valitse Lisää kysymyksiä tai ominaisuuspyyntö.</string>
+    <string name="settings_locale_title">Localisointi</string>
+    <string name="settings_locale_desc">Osallistu sovelluksen lokalisointiin.</string>
+    <string name="release">Jakelu</string>
+    <string name="releaseNetHunter">NetHunterin App-kauppa</string>
+    <string name="releaseGitHub">GitHubin jakeluversio</string>
+    <string name="releaseGitHubNightly">GitHub Nightly</string>
+    <string name="releaseTest">Debugin vapautus</string>
+    <string name="releaseOthers">Tuettu vapautus</string>
+    <string name="btn_cancel">Peruuta</string>
+    <string name="btn_save">Tallenna</string>
+    <string name="file_saved">tallennettu</string>
+    <string name="title_open_file">Avaa tiedosto</string>
+    <string name="title_delete_file">Poista tiedosto</string>
+    <string name="file_deleted">poistettu</string>
+    <string name="file_name">Tiedoston Nimi</string>
+    <string name="title_save_file">Tallenna tiedosto</string>
+    <string name="hid_version">Versio: %d</string>
+    <string-array name="modes">
+        <item>USB Kaapeli</item>
+        <item>Verkon Socket</item>
+    </string-array>
+    <string-array name="hidLanguages">
+        <item>Amerikkalainen Englanti</item>
+        <item>Turkki</item>
+        <item>Ruotsi</item>
+        <item>Slovenian</item>
+        <item>Venäjä</item>
+        <item>Portugali</item>
+        <item>Norja</item>
+        <item>Italia</item>
+        <item>Kroatia</item>
+        <item>Yhdistynyt Kuningaskunta Englanti</item>
+        <item>Ranska</item>
+        <item>Suomi</item>
+        <item>Espanja</item>
+        <item>Tanska</item>
+        <item>Saksa</item>
+        <item>Kanadalainen Ranska</item>
+        <item>Brasilian Portugali</item>
+        <item>Valkovenäjä</item>
+        <item>Unkari</item>
+    </string-array>
+    <string-array name="dark_theme_list">
+        <item>Automaattinen</item>
+        <item>Päivä</item>
+        <item>Yö</item>
+    </string-array>
+</resources>

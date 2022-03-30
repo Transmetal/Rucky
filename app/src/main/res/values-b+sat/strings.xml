@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Splash screen -->
+    <!-- Init Screen -->
+    <string name="init_next">ᱤᱱᱟᱹ ᱛᱟᱭᱚᱢ</string>
+    <string name="init_skip">ᱵᱟᱹᱫ</string>
+    <string name="init_agree">ᱦᱮᱸ</string>
+    <string name="init_start">ᱦᱮᱠ</string>
+    <string name="slideDesc1">ᱟᱢᱟᱜ ᱰᱤᱵᱷᱟᱤᱭᱥ Rubber Ducky ᱛᱮ ᱵᱚᱫᱚᱞ ᱢᱮ!</string>
+    <string name="slideTitle2">USB ᱠᱮᱵᱩᱞ</string>
+    <string name="slideTitle3"> ᱱᱮᱴᱣᱟᱨᱠ ᱥᱚᱠᱮᱴ</string>
+    <string name="slideTitle4">ᱰᱤᱥᱠᱞᱮᱢᱟᱹᱨ</string>
+    <!-- Update screen -->
+    <string name="update_activity">Rucky ᱟᱹᱯᱰᱮᱴ</string>
+    <string name="update_version">ᱵᱷᱟᱹᱨᱥᱚᱱ</string>
+    <string name="update_changelog">ᱵᱚᱫᱚᱞ ᱞᱟᱸᱜᱽ</string>
+    <string name="update_status">ᱥᱴᱮᱴᱟᱹᱥ ᱟᱹᱯᱰᱮᱴ</string>
+    <string name="update_downloading">ᱟᱹᱯᱰᱮᱴ ᱰᱟᱩᱱᱞᱳᱰᱚᱜ ᱠᱟᱱᱟ </string>
+    <string name="install_update">ᱟᱹᱯᱰᱮᱴ ᱮᱢ ᱪᱷᱚᱜ ᱠᱟᱱᱟ</string>
+    <!-- Editor screen -->
+    <string name="btn_exit">ᱵᱟᱹᱰ</string>
+    <string name="btn_back">ᱩᱠᱩ</string>
+    <string name="unlock">ᱮᱯ ᱠᱷᱩᱞᱟᱹᱭ ᱢᱮ</string>
+    <string name="auth">ᱚᱛᱷᱮᱱᱴᱤᱠᱮᱥᱚᱱ ᱠᱚᱱᱯᱷᱟᱨᱢ</string>
+    <string name="update">ᱟ.ᱯᱰᱮᱴ</string>
+    <string name="setting">ᱥᱟᱡᱟᱣ ᱠᱚ</string>
+    <string name="loadBtn">ᱞᱚᱰ</string>
+    <string name="saveBtn">ᱥᱟᱸᱪᱟᱣ</string>
+    <string name="delBtn">ᱜᱮᱫ ᱜᱤᱰᱤ</string>
+    <string name="runBtn">ᱫᱟᱹᱲ</string>
+    <string name="confBtn">ᱠᱚᱱᱯᱷᱤᱜᱽ</string>
+    <string name="btn_continue">ᱞᱟᱦᱟ</string>
+    <string name="root_err">USB ᱠᱮᱵᱟᱹᱞ ᱟᱠᱨᱚᱢᱚᱬ ᱠᱟᱹᱜᱤᱫ ᱨᱩᱩᱴ ᱚᱫᱮᱨ ᱫᱚᱨᱠᱟᱨ!</string>
+    <!-- Config screen -->
+    <string name="config_activity">ᱴᱣᱤᱠ</string>
+    <string name="config_status_usb_on">USB Connected</string>
+    <!-- HID config screen -->
+    <string name="hid_update">ᱟ.ᱯᱰᱮᱴ</string>
+    <string name="hid_edit">ᱥᱟᱯᱲᱟᱣ</string>
+    <string name="hid_delete">ᱜᱮᱫ ᱜᱤᱰᱤ</string>
+    <!-- Keylist screen -->
+    <string name="key_title">ᱪᱟᱹᱵᱤ ᱧᱤᱛᱩᱢ</string>
+    <!-- Setting screen -->
+    <string name="setting_general">ᱡᱮᱱᱨᱟᱞ</string>
+    <string name="dark_theme_title">ᱧᱤᱛ ᱢᱳᱰ</string>
+    <string name="delete_dep_title">ᱮᱯᱯ ᱚᱲᱚᱠ ᱢᱮ</string>
+    <string name="delete_dep_summary">ᱮᱯᱯ ᱠᱚ ᱥᱟᱯᱷᱟ ᱟᱨ ᱚᱲᱚᱠ ᱢᱮ ᱾</string>
+    <string name="settings_sec_title">ᱮᱰᱵᱷᱟᱱᱥ ᱥᱮᱠᱭᱚᱨᱴᱤ</string>
+    <string name="setting_about">ᱤᱱᱯᱷᱚ</string>
+    <string name="setting_developer_title">ᱰᱮᱵᱷᱞᱚᱯᱟᱹᱨ</string>
+    <string name="settings_version_title">ᱵᱷᱟᱹᱨᱥᱚᱱ</string>
+    <string name="settings_arch_title">ᱟᱨᱠᱤᱴᱮᱠᱪᱚᱨ</string>
+    <string name="settings_lic_title">ᱞᱟᱭᱥᱮᱱᱥ</string>
+    <string name="settings_support">ᱜᱚᱲᱚᱟᱜ</string>
+    <string name="settings_git_title">GitHub ᱠᱟᱛᱷᱟ ᱚᱰᱚᱠ</string>
+    <string name="settings_locale_title">ᱛᱚᱨᱡᱚᱢᱟ</string>
+    <string name="release">ᱦᱟᱹᱴᱤᱧ</string>
+    <string name="releaseNetHunter">NetHunter ᱮᱯᱯ ᱫᱚᱠᱟᱱ</string>
+    <string name="releaseGitHub">GitHub ᱚᱲᱚᱠ ᱠᱚ</string>
+    <string name="releaseTest">ᱰᱤᱵᱟᱹᱜ ᱚᱲᱚᱠ ᱠᱚ</string>
+    <string name="btn_cancel">ᱵᱚᱫᱽ</string>
+    <string name="btn_save">ᱥᱟᱸᱪᱟᱣ</string>
+    <string name="file_saved">ᱥᱟᱸᱪᱟᱣ</string>
+    <string name="file_deleted">ᱜᱮᱫ ᱜᱤᱰᱤ ᱠᱮᱟᱢ</string>
+    <string name="file_name">ᱨᱮᱫ ᱧᱩᱛᱩᱢ</string>
+    <string-array name="modes">
+        <item>USB ᱠᱮᱵᱩᱞ</item>
+        <item> ᱱᱮᱴᱣᱟᱨᱠ ᱥᱚᱠᱮᱴ</item>
+    </string-array>
+    <string-array name="hidLanguages">
+        <item>ᱟᱢᱮᱨᱤᱠᱟᱱ ᱤᱝᱨᱟᱡᱤ</item>
+        <item>ᱛᱩᱨᱠᱤᱥᱷ</item>
+        <item>ᱥᱣᱮᱫᱤᱥᱷ</item>
+        <item>ᱥᱞᱚᱵᱷᱮᱱᱤᱭᱟᱱ</item>
+        <item>ᱨᱟᱹᱥᱤᱭᱟᱱ</item>
+        <item>ᱯᱚᱨᱛᱩᱜᱤᱡ</item>
+        <item>ᱱᱚᱨᱣᱮᱜᱤᱭᱟᱱ</item>
+        <item>ᱤᱴᱟᱞᱤᱭᱟᱱ</item>
+        <item>ᱠᱨᱚᱮᱥᱤᱭᱟᱱ</item>
+        <item>ᱭᱩᱱᱭᱴᱮᱰ ᱠᱤᱧᱰᱚᱢ ᱤᱝᱟᱡᱤ</item>
+        <item>ᱯᱷᱨᱮᱱᱪ</item>
+        <item>ᱯᱷᱤᱱᱱᱤᱥ</item>
+        <item>ᱥᱯᱮᱱᱤᱥ</item>
+        <item>ᱰᱮᱱᱤᱥ</item>
+        <item>ᱡᱟᱹᱨᱢᱟᱱ</item>
+        <item>ᱠᱟᱱᱟᱰᱤᱭᱟᱱ ᱯᱷᱨᱮᱸᱪ</item>
+        <item>ᱵᱨᱟᱡᱤᱞᱤᱭᱟᱱ ᱯᱚᱨᱛᱩᱜᱤᱡ</item>
+        <item>ᱵᱮᱞᱟᱨᱩᱥᱤᱭᱟᱱ</item>
+        <item>ᱦᱟᱹᱝᱜᱮᱨᱤᱭᱟᱱ</item>
+    </string-array>
+</resources>

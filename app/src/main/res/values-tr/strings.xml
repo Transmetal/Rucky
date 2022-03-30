@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Splash screen -->
+    <!-- Init Screen -->
+    <string name="init_next">İLERİ</string>
+    <string name="init_skip">ATLA</string>
+    <string name="init_agree">KABUL ET</string>
+    <string name="init_start">HACK</string>
+    <string name="slideDesc1">Cihazını bir Rubber Ducky \'ye çevir!</string>
+    <string name="slideTitle2">USB kablosu</string>
+    <string name="slideDesc2">Saldırı başlatmak için USB kablolu arayüz!</string>
+    <string name="slideTitle3">Ağ Yuvası</string>
+    <string name="slideDesc3">Desteklenen dış araçlar aracılığıyla saldırı başlatmak için kullanılan Wi-Fi tabanlı yuva arabirimleri!</string>
+    <string name="slideTitle4">Sorumluluğun</string>
+    <string name="slideDesc4">User of the app is solely responsible for the damages caused. No other entity can be held liable for the damages done using this app! Practice caution when using the app and do not use this to cause harm to others!</string>
+    <string name="slideTitle5">Privacy Policy</string>
+    <string name="slideDesc5">No Data of any form is collected, used and sold! Some permissions which could raise privacy concerns are only asked for the working of certain features in the app and is not to collect data! Your privacy is respected!</string>
+    <string name="slideTitle6">Uygulama izni</string>
+    <string name="slideDesc6">Lütfen uygulamaya çalışmak için gerekli izni verin!</string>
+    <!-- Update screen -->
+    <string name="update_new">Kullanılabilecek Yeni Güncelleme Sürümü: </string>
+    <string name="update_hash_error">Dosya Imzası Uyuşmazlığı! Güncelleştirilemiyor.</string>
+    <string name="update_activity">Rucky Güncelleme</string>
+    <string name="update_version">Sürüm</string>
+    <string name="update_version_nightly">Gecelik Sürüm</string>
+    <string name="update_changelog">Değişiklikler</string>
+    <string name="update_status">Güncelleme Durumu</string>
+    <string name="update_action">Güncellemeyi İndirin ve Yükleyin</string>
+    <string name="update_downloading">Güncelleştirme İndiriliyor</string>
+    <string name="install_update">Güncellemeleri Uygulama</string>
+    <!-- Editor screen -->
+    <string name="exit_dialog">Uygulamadan gizlemek ya da uygulamadan çıkmak istiyor musunuz?</string>
+    <string name="btn_exit">Çıkış</string>
+    <string name="btn_back">Gizle</string>
+    <string name="unlock">Uygulama kilidini aç</string>
+    <string name="auth">Kimlik doğrulamasını onayla</string>
+    <string name="update">Güncelleştir</string>
+    <string name="setting">Ayarlar</string>
+    <string name="codeHint">Lastik ördeksiz komut dosyalarını buraya yazın ya da yükleyin</string>
+    <string name="loadBtn">Yükle</string>
+    <string name="saveBtn">Kaydet</string>
+    <string name="delBtn">Sil</string>
+    <string name="runBtn">Çalıştır</string>
+    <string name="confBtn">Konfig</string>
+    <string name="btn_continue">Devam</string>
+    <string name="root_err">USB Kablo Saldırısı Için Kök Erişim Gerekiyor!</string>
+    <string name="kernel_err">"USB Kablosu Saldırısı İçin Çekirdek Desteklenmiyor!"</string>
+    <string name="vm">Sanal ortam desteklenmiyor!</string>
+    <!-- Config screen -->
+    <string name="config_activity">İnce Ayarlar</string>
+    <string name="config_status_usb_on">USB Bağlandı</string>
+    <string name="config_status_usb_off">Bağlantı kesildi</string>
+    <string name="config_status_net_on">Ağ Yuvası Bağlı Değil</string>
+    <string name="config_status_net_off">Ağ Yuvası Bağlı Değil</string>
+    <string name="socket_address">Enter Socket IP and Port Address</string>
+    <!-- HID config screen -->
+    <string name="hid_activity">HID Yapılandırması</string>
+    <string name="hid_download">Karşıdan Yükle</string>
+    <string name="hid_update">Güncelleştir</string>
+    <string name="hid_edit">Düzenle</string>
+    <string name="hid_delete">Sil</string>
+    <!-- Keylist screen -->
+    <string name="key_title">Anahtar Adı</string>
+    <string name="key_character">Anahtar Karakter</string>
+    <string name="key_code">Anahtar Kodu</string>
+    <string name="key_ctrl">Ctrl Tuşu</string>
+    <string name="key_alt">Alt Tuşu</string>
+    <string name="key_shift">Üst Karakter Anahtarı</string>
+    <string name="key_meta">Meta Anahtar</string>
+    <string name="keycode">Anahtar Kodu</string>
+    <string name="modcode">Değiştirici Kodu</string>
+    <string name="key_details">Anahtar Ayrıntıları</string>
+    <!-- Setting screen -->
+    <string name="setting_general">Genel</string>
+    <string name="dark_theme_title">Night Mode</string>
+    <string name="dark_theme_summary">Set dark theme</string>
+    <string name="hide_icon_title">Hide/Disable Launcher Icon</string>
+    <string name="hide_icon_summary">Dial *#*#78259#*#* to launch. On Android 10 onwards, icon will be disabled, but not hidden.</string>
+    <string name="delete_dep_title">Uygulamayı Kaldır</string>
+    <string name="delete_dep_summary">Uygulamayı temizleyin ve kaldırın.</string>
+    <string name="settings_sec_title">Gelişmiş Güvenlik</string>
+    <string name="settings_sec_desc">Komut dosyası şifreleme ve ekran kilidini etkinleştirin.</string>
+    <string name="setting_device">Saldırı Modu Ayarları</string>
+    <string name="configfs_title">ConfigFS \' yi Otomatik Yapılandır</string>
+    <string name="configfs_summary">Desteklenen ConfigFS aygıtlarında HID yapılandırılacak. USB ayarını bozabilir.</string>
+    <string name="hid_choice_title">Özelleştirilebilir HID</string>
+    <string name="hid_choice_summary">Eski HID ve Customisable HID arasında geçiş</string>
+    <string name="hid_title">HID Dili</string>
+    <string name="hid_summary">Ek HID dillerini karşıdan yükleyin ya da yeni HID düzenlerini tasarlayın.</string>
+    <string name="settings_usb_title">USB Bağlantı Başlatma</string>
+    <string name="settings_usb_desc">USB bağlandığında çalıştır düğmesi saldırı başlatır.</string>
+    <string name="settings_net_title">Network Socket Connect Launch</string>
+    <string name="settings_net_desc">Run button will launch attack when Network Socket is connected.</string>
+    <string name="setting_about">Bilgi</string>
+    <string name="setting_developer_title">Geliştirici</string>
+    <string name="settings_version_title">Sürüm</string>
+    <string name="settings_arch_title">Mimari</string>
+    <string name="settings_lic_title">Lisans</string>
+    <string name="settings_support">Destek</string>
+    <string name="settings_git_title">GitHub Sorunları</string>
+    <string name="settings_git_desc">Sorun ya da özellik isteği eklemek için tıklatın.</string>
+    <string name="settings_locale_title">Yerelleştirme</string>
+    <string name="settings_locale_desc">Contribute to app localization.</string>
+    <string name="release">Dağıtım</string>
+    <string name="releaseNetHunter">NetHunter Uygulama Mağazası</string>
+    <string name="releaseGitHub">GitHub Yayın Düzeyi</string>
+    <string name="releaseGitHubNightly">GitHub Gecelik</string>
+    <string name="releaseTest">Hata Ayıklama Yayını</string>
+    <string name="releaseOthers">Desteklenmeyen Yayın Düzeyi</string>
+    <string name="btn_cancel">İptal</string>
+    <string name="btn_save">Kaydet</string>
+    <string name="file_saved">kaydedildi</string>
+    <string name="title_open_file">Dosya Aç</string>
+    <string name="title_delete_file">Dosyayı Sil</string>
+    <string name="file_deleted">silindi</string>
+    <string name="file_name">Dosya Adı</string>
+    <string name="title_save_file">Dosyayı Sakla</string>
+    <string name="hid_version">Sürüm: %d</string>
+    <string-array name="modes">
+        <item>USB kablosu</item>
+        <item>Ağ Yuvası</item>
+    </string-array>
+    <string-array name="hidLanguages">
+        <item>Amerikan ingilizcesi</item>
+        <item>Türkçe</item>
+        <item>İsveççe</item>
+        <item>Slovence</item>
+        <item>Rusça</item>
+        <item>Portekizce</item>
+        <item>Norveçce</item>
+        <item>İtalyanca</item>
+        <item>Hırvatça</item>
+        <item>İngiltere İngilizcesi</item>
+        <item>Fransızca</item>
+        <item>Fince</item>
+        <item>İspanyolca</item>
+        <item>Danca</item>
+        <item>Almanca</item>
+        <item>Kanada Fransızcası</item>
+        <item>Brezilya Portekizcesi</item>
+        <item>Beyaz Rusça</item>
+        <item>Macarca</item>
+    </string-array>
+    <string-array name="dark_theme_list">
+        <item>Otomatik</item>
+        <item>Gün</item>
+        <item>Gece</item>
+    </string-array>
+</resources>

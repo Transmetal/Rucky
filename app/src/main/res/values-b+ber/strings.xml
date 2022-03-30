@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Splash screen -->
+    <!-- Init Screen -->
+    <string name="init_next">ⵉⵏⴹⴼⵕ</string>
+    <string name="init_skip">ⵣⵔⵉ</string>
+    <string name="init_start">ⵀⴰⴽ</string>
+    <string name="slideDesc1">ⵙⵙⴷⵡⵍ ⴰⵍⵍⴰⵍ ⵏⵏⴽ ⴷ Rubber Ducky!</string>
+    <string name="slideTitle2">ⴰⵙⵖⵓⵏ ⵏ USB</string>
+    <!-- Update screen -->
+    <string name="update_version">ⵜⴰⵍⵇⵇⵎⵜ</string>
+    <!-- Editor screen -->
+    <string name="unlock">ⵕⵥⵎ ⵜⵉⵙⵏⵙⵉ</string>
+    <string name="auth">ⵙⴷⴷⴻⴷ ⴰⵙⵖⵣⵏ</string>
+    <string name="update">ⴰⵙⴷⵖⵉ</string>
+    <string name="setting">ⵜⵉⵙⵖⴰⵍ</string>
+    <string name="loadBtn">ⴰⴳⵎ</string>
+    <string name="saveBtn">ⵃⴹⵓ</string>
+    <string name="delBtn">ⴽⴽⵙ</string>
+    <string name="btn_continue">ⵖⵔⵔⴷ</string>
+    <!-- Config screen -->
+    <string name="config_status_usb_on">ⵜⵉⵣⴷⵉ USB</string>
+    <!-- HID config screen -->
+    <string name="hid_update">ⴰⵙⴷⵖⵉ</string>
+    <string name="hid_delete">ⴽⴽⵙ</string>
+    <!-- Keylist screen -->
+    <!-- Setting screen -->
+    <string name="setting_general">ⴰⵎⴰⵜⴰⵢ</string>
+    <string name="delete_dep_title">ⴽⴽⵙ ⴰⵙⵙⵔⵙ ⵏ ⵜⵙⵏⵙⵉ</string>
+    <string name="delete_dep_summary">ⵙⴼⴹ ⴷ ⵜⴽⴽⵙⴷ ⴰⵙⵙⵔⵙ ⵉ ⵜⵙⵏⵙⵉ.</string>
+    <string name="settings_sec_title">ⴰⴼⵜⴰⵢ ⵏ ⵙⵙⵍⴰⵎⵜ</string>
+    <string name="setting_about">ⵜⵉⵏⵖⵎⵉⵙⵉⵏ</string>
+    <string name="setting_developer_title">ⴰⵎⵙⵖⵉⵡⵙ</string>
+    <string name="settings_version_title">ⵜⴰⵍⵇⵇⵎⵜ</string>
+    <string name="settings_arch_title">ⵜⴰⵎⵙⴷⴰⴳⵜ</string>
+    <string name="settings_lic_title">ⵜⵓⵔⴰⴳⵜ</string>
+    <string name="settings_support">ⴰⵡⵡⴰⵙ</string>
+    <string name="settings_git_title">ⵜⵉⵎⵓⴽⵔⴰⵙ ⵏ GitHub</string>
+    <string name="settings_git_desc">ⴽⵍⵉⴽⵉ ⴷⴰ ⴰⴼⴰⴷ ⴰⴷ ⵜⵔⵏⵓⴷ ⵜⵉⵎⵓⴽⵔⴰⵙ ⵏⵖ ⵜⵓⵜⵔⴰ ⵏ ⵜⵉⵎⵥⵍⴰⵢ.</string>
+    <string name="btn_cancel">ⵙⵙⵔ</string>
+    <string name="btn_save">ⵃⴹⵓ</string>
+    <string name="file_saved">ⵉⵜⵜⵓⵃⴹⴰ</string>
+    <string name="file_deleted">ⵉⵜⵜⵡⴰⴽⴽⵙ</string>
+    <string name="file_name">ⵉⵙⵎ ⵓⴼⴰⵢⵍⵓ</string>
+    <string-array name="modes">
+        <item>ⴰⵙⵖⵓⵏ ⵏ USB</item>
+        <item>Network Socket</item>
+    </string-array>
+    <string-array name="hidLanguages">
+        <item>ⵜⴰⵏⴳⵍⵉⵣⵉⵢⵜ ⵏ ⵎⴰⵔⵉⴽⴰⵏ</item>
+        <item>ⵜⴰⵜⵓⵔⴽⵉⵢⵜ</item>
+        <item>ⵜⴰⵙⵡⵉⴷⵉⵢⵜ</item>
+        <item>ⵜⴰⵙⵍⵉⴼⴰⵏⵉⵢⵜ</item>
+        <item>ⵜⴰⵔⵓⵙⵉⵢⵜ</item>
+        <item>ⵜⴰⴱⵕⴷⵇⵉⵙⵜ</item>
+        <item>ⵜⴰⵏⵓⵕⴼⵉⵊⵉⵢⵜ</item>
+        <item>ⵜⴰⵟⴰⵍⵢⴰⵏⵉⵢⵜ</item>
+        <item>ⵜⴰⴽⵔⵡⴰⵜⵉⵜ</item>
+        <item>ⵜⴰⵏⴳⵍⵉⵣⵉⵢⵜ ⵏ ⴱⵕⵉⵜⴰⵏⵉⵢⴰ</item>
+        <item>ⵜⴰⴼⵕⴰⵏⵙⵉⵙⵜ</item>
+        <item>ⵜⴰⴼⵉⵏⵍⴰⵏⴷⵉⵢⵜ</item>
+        <item>ⵜⴰⵙⴱⵍⵢⵓⵏⵉⵢⵜ</item>
+        <item>ⵜⴰⴷⴰⵏⵉⵎⴰⵔⴽⵉⵢⵜ</item>
+        <item>ⵜⴰⵍⵓⵎⴰⵏⵉⵢⵜ</item>
+        <item>ⵜⴰⴼⵕⴰⵏⵙⵉⵙⵜ ⵏ ⴽⴰⵏⴰⴷⴰ</item>
+        <item>ⵜⴰⴱⵕⴷⵇⵉⵙⵜ ⵏ ⴱⵔⴰⵣⵉⵍ</item>
+        <item>ⵜⴰⴱⵉⵍⴰⵔⵓⵙⵉⵢⵜ</item>
+        <item>ⵜⴰⵀⴰⵏⴳⴰⵔⵉⵢⵜ</item>
+    </string-array>
+</resources>

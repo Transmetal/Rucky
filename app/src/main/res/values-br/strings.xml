@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Splash screen -->
+    <!-- Init Screen -->
+    <string name="init_next">WAR-RAOK</string>
+    <!-- Update screen -->
+    <string name="update_version">Stumm</string>
+    <!-- Editor screen -->
+    <string name="update">Hizivaat</string>
+    <string name="setting">Arventennoù</string>
+    <string name="codeHint">Bizskrivit pe lañsit skriptoù rubber ducky amañ</string>
+    <string name="loadBtn">Kargañ</string>
+    <string name="saveBtn">Saveteiñ</string>
+    <string name="runBtn">Lañsañ</string>
+    <!-- Config screen -->
+    <!-- HID config screen -->
+    <string name="hid_update">Hizivaat</string>
+    <!-- Keylist screen -->
+    <!-- Setting screen -->
+    <string name="setting_general">Hollek</string>
+    <string name="delete_dep_title">Distaliañ an arload</string>
+    <string name="delete_dep_summary">Naetaat ha distaliañ an arload.</string>
+    <string name="setting_about">Titouroù</string>
+    <string name="setting_developer_title">Diorroer</string>
+    <string name="settings_version_title">Stumm</string>
+    <string name="settings_arch_title">Frammañ</string>
+    <string name="settings_lic_title">Aotre-implijout</string>
+    <string name="settings_locale_title">Lec\'hiadur</string>
+    <string name="btn_save">Saveteiñ</string>
+</resources>

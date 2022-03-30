@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.mayank.rucky">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="com.mayank.rucky.net" />
+
+    <application
+        android:name=".MainApplication"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppSplash"
+        android:networkSecurityConfig="@xml/network_security_config"
+        tools:ignore="AllowBackup"
+        android:forceDarkAllowed="false"
+        tools:targetApi="q">
+
+        <service
+            android:name=".service.SocketHeartbeatService"
+            android:enabled="true"
+            android:stopWithTask="true" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <receiver
+            android:name=".receiver.SecretCodeReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SECRET_CODE" />
+
+                <data
+                    android:host="78259"
+                    android:scheme="android_secret_code" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".receiver.USBReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+                <action android:name="android.hardware.usb.action.USB_STATE" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".receiver.NetSocketReceiver"
+            android:exported="true"
+            android:enabled="true"
+            android:permission="com.mayank.rucky.net">
+            <intent-filter android:priority="999">
+                <action android:name="com.mayank.rucky.netSocketConnected" />
+                <action android:name="com.mayank.rucky.netSocketDisconnected" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".activity.WelcomeActivity"
+            android:clearTaskOnLaunch="true"
+            android:exported="true"
+            android:launchMode="singleTask"
+            tools:ignore="LockedOrientationActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity-alias
+            android:name=".Main"
+            android:enabled="true"
+            android:exported="true"
+            android:icon="@mipmap/ic_launcher"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:launchMode="singleTask"
+            android:targetActivity=".activity.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity
+            android:name=".activity.InitActivity"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".activity.EditorActivity"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".activity.UpdateActivity"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".activity.SettingsActivity"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".activity.BrowserActivity"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".activity.ConfigActivity"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".activity.HidActivity"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".activity.KeylistActivity"
+            tools:ignore="LockedOrientationActivity" />
+
+    </application>
+
+</manifest>

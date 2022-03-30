@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Splash screen -->
+    <!-- Init Screen -->
+    <string name="init_next">بعدی</string>
+    <string name="init_skip">رد کردن</string>
+    <!-- Update screen -->
+    <!-- Editor screen -->
+    <string name="unlock">نرم‌افزارهای قفل شده</string>
+    <string name="codeHint">Type or load rubber ducky scripts here</string>
+    <string name="loadBtn">بارگذاری</string>
+    <string name="saveBtn">ذخیره سازی</string>
+    <string name="delBtn">حذف</string>
+    <string name="runBtn">اجرا کن</string>
+    <string name="confBtn">پیکربندی</string>
+    <string name="btn_continue">ادامه</string>
+    <!-- Config screen -->
+    <!-- HID config screen -->
+    <string name="hid_delete">حذف</string>
+    <!-- Keylist screen -->
+    <!-- Setting screen -->
+    <string name="btn_save">ذخیره سازی</string>
+</resources>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Splash screen -->
+    <!-- Init Screen -->
+    <string name="init_next">NÆSTE</string>
+    <string name="init_skip">SKIP</string>
+    <string name="init_agree">AFTALE</string>
+    <string name="init_start">HACK</string>
+    <string name="slideDesc1">Vend din enhed til en Rubber Ducky!</string>
+    <string name="slideTitle2">USB-kabel</string>
+    <string name="slideDesc2">USB-kablet grænseflade til at starte angreb!</string>
+    <string name="slideTitle3">Netværk Sokkel</string>
+    <string name="slideDesc3">Wi-Fi-baserede sokkelgrænseflader til at lancere angreb via understøttede eksterne værktøjer!</string>
+    <string name="slideTitle4">Ansvarsfraskrivelse</string>
+    <string name="slideDesc4">Bruger af appen er eneansvarlig for de forvoldte skader. Ingen anden enhed kan holdes ansvarlig for de skader, der er gjort ved hjælp af denne app! Øv dig i forsigtighed, når du bruger app\'en og brug den ikke for at skade andre!</string>
+    <string name="slideTitle5">Privat Politik</string>
+    <string name="slideDesc5">Ingen data fra nogen form indsamles, bruges og sælges! Nogle tilladelser, som kunne rejse privatlivets fred bekymringer er kun bedt om at arbejde med visse funktioner i app\'en og er ikke at indsamle data! Dit privatliv respekteres!</string>
+    <string name="slideTitle6">App Tilladelse</string>
+    <string name="slideDesc6">Tildel venligst app den krævede tilladelse til at arbejde!</string>
+    <!-- Update screen -->
+    <string name="update_new">Ny Opdatering Tilgængelig Version: </string>
+    <string name="update_hash_error">Mismatch af filsignatur! Kan ikke opdatere.</string>
+    <string name="update_activity">Rucky Opdatering</string>
+    <string name="update_version">Version</string>
+    <string name="update_version_nightly">Nightly Version</string>
+    <string name="update_changelog">Ændringslog</string>
+    <string name="update_status">Opdater Status</string>
+    <string name="update_action">Download og installer opdatering</string>
+    <string name="update_downloading">Downloader Opdatering</string>
+    <string name="install_update">Anvender Opdatering</string>
+    <!-- Editor screen -->
+    <string name="exit_dialog">Vil du skjule eller afslutte appen?</string>
+    <string name="btn_exit">Afslut</string>
+    <string name="btn_back">Skjul</string>
+    <string name="unlock">Oplås app</string>
+    <string name="auth">Bekræft godkendelse</string>
+    <string name="update">Opdater</string>
+    <string name="setting">Indstillinger</string>
+    <string name="codeHint">Skriv eller indlæse gummiducky-scripts her</string>
+    <string name="loadBtn">Indlæs</string>
+    <string name="saveBtn">Gem</string>
+    <string name="delBtn">Slet</string>
+    <string name="runBtn">Løb!</string>
+    <string name="confBtn">Konfigurer</string>
+    <string name="btn_continue">Fortsæt</string>
+    <string name="root_err">Root-adgang kræves til USB-kabel angreb!</string>
+    <string name="kernel_err">"Kernel Ikke Understøttet Til USB-kabel Angreb!"</string>
+    <string name="vm">Virtuelt miljø understøttes ikke!</string>
+    <!-- Config screen -->
+    <string name="config_activity">Tweaks</string>
+    <string name="config_status_usb_on">USB Forbundet</string>
+    <string name="config_status_usb_off">USB Afbrudt</string>
+    <string name="config_status_net_on">Netværksokkel Forbundet</string>
+    <string name="config_status_net_off">Netværksokkel Afbrudt</string>
+    <string name="socket_address">Indtast Socket IP og Port Adresse</string>
+    <!-- HID config screen -->
+    <string name="hid_activity">HID-konfig</string>
+    <string name="hid_download">Download</string>
+    <string name="hid_update">Opdater</string>
+    <string name="hid_edit">Redigér</string>
+    <string name="hid_delete">Slet</string>
+    <!-- Keylist screen -->
+    <string name="key_title">Nøglenavn</string>
+    <string name="key_character">Nøgletegn</string>
+    <string name="key_code">Nøglekode</string>
+    <string name="key_ctrl">Ctrl-tast</string>
+    <string name="key_alt">Alt-nøgle</string>
+    <string name="key_shift">Skift-nøgle</string>
+    <string name="key_meta">Metatnøgle</string>
+    <string name="keycode">Nøglekode</string>
+    <string name="modcode">Modifikatorkode</string>
+    <string name="key_details">Nøgledetaljer</string>
+    <!-- Setting screen -->
+    <string name="setting_general">Almindelige bestemmelser</string>
+    <string name="dark_theme_title">Nattilstand</string>
+    <string name="dark_theme_summary">Sæt mørkt tema</string>
+    <string name="hide_icon_title">Skjul/Deaktivér Launcher-Ikon</string>
+    <string name="hide_icon_summary">Ring *#*#78259#*#* for at starte. På Android 10 og derover vil ikonet blive deaktiveret, men ikke skjult.</string>
+    <string name="delete_dep_title">Fjern installation af program</string>
+    <string name="delete_dep_summary">Ryd op og afinstallation af app.</string>
+    <string name="settings_sec_title">Forhåndssikkerhed</string>
+    <string name="settings_sec_desc">Aktivér scriptfilkryptering og skærmlås i scriptfiler.</string>
+    <string name="setting_device">Indstillinger For Angrebstilstand</string>
+    <string name="configfs_title">Automatisk Konfigurering Af Konfigurationsfs</string>
+    <string name="configfs_summary">Vil konfigurere HID på ConfigFS understøttede enheder. Kan ødelægge USB-indstillingen.</string>
+    <string name="hid_choice_title">Tilpasset HID</string>
+    <string name="hid_choice_summary">Skift mellem Legacy HID og Customisable HID</string>
+    <string name="hid_title">HID-sprog</string>
+    <string name="hid_summary">Download yderligere HID-sprog eller designe nye HID-layouts.</string>
+    <string name="settings_usb_title">Start Med USB-Forbindelse</string>
+    <string name="settings_usb_desc">Kør knappen vil starte angreb, når USB er tilsluttet.</string>
+    <string name="settings_net_title">Start Med Netværksforbindelse</string>
+    <string name="settings_net_desc">Kør knappen vil starte angreb, når Netværks Socket er tilsluttet.</string>
+    <string name="setting_about">Oplysninger</string>
+    <string name="setting_developer_title">Udvikler</string>
+    <string name="settings_version_title">Version</string>
+    <string name="settings_arch_title">Arkitektur</string>
+    <string name="settings_lic_title">Licens</string>
+    <string name="settings_support">Support</string>
+    <string name="settings_git_title">GitHub-problemer</string>
+    <string name="settings_git_desc">Klik for at tilføje spørgsmål eller funktionsanmodning.</string>
+    <string name="settings_locale_title">Lokalisering</string>
+    <string name="settings_locale_desc">Bidrag til app-lokalisering.</string>
+    <string name="release">Distribution</string>
+    <string name="releaseNetHunter">NetHunter App Store</string>
+    <string name="releaseGitHub">GitHub-release</string>
+    <string name="releaseGitHubNightly">GitHub Nightly</string>
+    <string name="releaseTest">Fejlfindingsrelease</string>
+    <string name="releaseOthers">Ikke-understøttet release</string>
+    <string name="btn_cancel">Annuller</string>
+    <string name="btn_save">Gem</string>
+    <string name="file_saved">gemt</string>
+    <string name="title_open_file">Åbn fil</string>
+    <string name="title_delete_file">Slet fil</string>
+    <string name="file_deleted">slettet</string>
+    <string name="file_name">Fil Navn</string>
+    <string name="title_save_file">Gem fil</string>
+    <string name="hid_version">Version: %d</string>
+    <string-array name="modes">
+        <item>USB-kabel</item>
+        <item>Netværk Sokkel</item>
+    </string-array>
+    <string-array name="hidLanguages">
+        <item>Amerikansk Engelsk</item>
+        <item>Tyrkisk</item>
+        <item>Svensk</item>
+        <item>Slovenian</item>
+        <item>Russisk</item>
+        <item>Portugisisk</item>
+        <item>Norsk</item>
+        <item>Italiensk</item>
+        <item>Kroatisk</item>
+        <item>Storbritannien Engelsk</item>
+        <item>Fransk</item>
+        <item>Finsk</item>
+        <item>Spansk</item>
+        <item>Dansk</item>
+        <item>Tysk</item>
+        <item>Canadisk Fransk</item>
+        <item>Brasiliansk Portugisisk</item>
+        <item>Hviderussisk</item>
+        <item>Ungarsk</item>
+    </string-array>
+    <string-array name="dark_theme_list">
+        <item>Automatisk</item>
+        <item>Dag</item>
+        <item>Nat</item>
+    </string-array>
+</resources>

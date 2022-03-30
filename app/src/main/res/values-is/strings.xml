@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Splash screen -->
+    <!-- Init Screen -->
+    <!-- Update screen -->
+    <string name="update_version">Útgáfa</string>
+    <!-- Editor screen -->
+    <!-- Config screen -->
+    <!-- HID config screen -->
+    <!-- Keylist screen -->
+    <!-- Setting screen -->
+    <string name="settings_version_title">Útgáfa</string>
+</resources>

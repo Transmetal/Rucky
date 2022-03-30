@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Splash screen -->
+    <!-- Init Screen -->
+    <string name="init_next">Weiter</string>
+    <string name="init_skip">Überspringen</string>
+    <string name="init_agree">Zustimmen</string>
+    <string name="init_start">HACK</string>
+    <string name="slideDesc1">Verwandle dein Gerät zu einem Rubber Ducky!</string>
+    <string name="slideTitle2">USB Kabel</string>
+    <string name="slideDesc2">USB-Schnittstelle zum Starten des Angriff!</string>
+    <string name="slideTitle3">Netzwerk Socket</string>
+    <string name="slideDesc3">Wifi basierende Socket-Schnittstellen zum Starten des Angriff über unterstützte externe Tools!</string>
+    <string name="slideTitle4">Haftungsausschluss</string>
+    <string name="slideDesc4">Der Nutzer der App ist allein für die entstandenen Schäden verantwortlich. Keine andere Person kann für die mit dieser App verursachten Schäden haftbar gemacht werden! Gehen Sie vorsichtig mit der Anwendung um, wenn Sie diese verwenden und nutzen sie bitte nicht, um anderen Schaden zuzufügen!</string>
+    <string name="slideTitle5">Datenschutzerklärung</string>
+    <string name="slideDesc5">Es werden keine Daten in irgendeiner Form gesammelt, verwendet oder verkauft.
+Einige Berechtigungen, die Bedenken bezüglich des Datenschutzes wecken könnten, werden nur für das korrekte Funktionieren bestimmter Eigenschaften in der App benötigt und dienen keiner Datensammlung.
+Ihre Privatsphäre wird respektiert.</string>
+    <string name="slideTitle6">App-Berechtigung</string>
+    <string name="slideDesc6">Bitte erteilen Sie der App die erforderliche Berechtigung, um die volle Funktionsweisen nutzen zu können</string>
+    <!-- Update screen -->
+    <string name="update_new">Neue verfügbare Version: </string>
+    <string name="update_hash_error">Abweichung bei Dateisignatur! Aktualisierung nicht möglich.</string>
+    <string name="update_activity">Update</string>
+    <string name="update_version">Version</string>
+    <string name="update_version_nightly">Nightly Version</string>
+    <string name="update_changelog">Changelog</string>
+    <string name="update_status">Status aktualisieren</string>
+    <string name="update_action">Update herunterladen und installieren</string>
+    <string name="update_downloading">Update wird heruntergeladen</string>
+    <string name="install_update">Update wird angewendet</string>
+    <!-- Editor screen -->
+    <string name="exit_dialog">Möchten Sie die App ausblenden oder verlassen?</string>
+    <string name="btn_exit">Beenden</string>
+    <string name="btn_back">Ausblenden</string>
+    <string name="unlock">App entsperren</string>
+    <string name="auth">Authentifizierung bestätigen</string>
+    <string name="update">Aktualisieren</string>
+    <string name="setting">Einstellungen</string>
+    <string name="codeHint">Schreibe oder lade hier Rubber Ducky Skripte herunter</string>
+    <string name="loadBtn">Laden</string>
+    <string name="saveBtn">Speichern</string>
+    <string name="delBtn">Löschen</string>
+    <string name="runBtn">Ausführen</string>
+    <string name="confBtn">Konfiguration</string>
+    <string name="btn_continue">Weiter</string>
+    <string name="root_err">Root Rechte werden für USB Attacken benötigt!</string>
+    <string name="kernel_err">"Der Kernel wird nicht für USB Attacken unterstützt!"</string>
+    <string name="vm">Virtuelle Umgebung wird nicht unterstützt!</string>
+    <!-- Config screen -->
+    <string name="config_activity">Tweaks</string>
+    <string name="config_status_usb_on">USB angeschlossen</string>
+    <string name="config_status_usb_off">USB-Verbindung getrennt</string>
+    <string name="config_status_net_on">Netzwerk-Socket verbunden</string>
+    <string name="config_status_net_off">Netzwerk-Socket getrennt</string>
+    <string name="socket_address">Socket-IP und Port eingeben</string>
+    <!-- HID config screen -->
+    <string name="hid_activity">HID-Konfiguration</string>
+    <string name="hid_download">Herunterladen</string>
+    <string name="hid_update">Aktualisieren</string>
+    <string name="hid_edit">Bearbeiten</string>
+    <string name="hid_delete">Löschen</string>
+    <!-- Keylist screen -->
+    <string name="key_title">Schlüsselname</string>
+    <string name="key_character">Schlüsselzeichen</string>
+    <string name="key_code">Schlüsselcode</string>
+    <string name="key_ctrl">Strg-Taste</string>
+    <string name="key_alt">Alt-Schlüssel</string>
+    <string name="key_shift">Umschalttaste</string>
+    <string name="key_meta">Metaschlüssel</string>
+    <string name="keycode">Schlüsselcode</string>
+    <string name="modcode">Änderungscode</string>
+    <string name="key_details">Schlüsseldetails</string>
+    <!-- Setting screen -->
+    <string name="setting_general">Allgemein</string>
+    <string name="dark_theme_title">Nachtmodus</string>
+    <string name="dark_theme_summary">Dunkles Design setzen</string>
+    <string name="hide_icon_title">Launcher-Icon ausblenden/deaktivieren</string>
+    <string name="hide_icon_summary">Wählen Sie *#*#78259#*#* um zu starten. Auf Android 10 wird das Symbol deaktiviert, aber nicht versteckt.</string>
+    <string name="delete_dep_title">App deinstallieren</string>
+    <string name="delete_dep_summary">Bereinigung und Deinstallation der App.</string>
+    <string name="settings_sec_title">Erweiterte Sicherheit (Root)</string>
+    <string name="settings_sec_desc">Aktivieren Sie die Skript-Verschlüsselung und die Bildschirmsperre.</string>
+    <string name="setting_device">Angriffsmodus Einstellungen</string>
+    <string name="configfs_title">ConfigFS automatisch konfigurieren</string>
+    <string name="configfs_summary">Konfiguriert HID auf ConfigFS unterstützten Geräten. Kann die USB-Einstellung stören.</string>
+    <string name="hid_choice_title">Anpassbare HID</string>
+    <string name="hid_choice_summary">Wechsel zwischen traditioneller HID und anpassungsfähiger HID</string>
+    <string name="hid_title">HID-Sprache</string>
+    <string name="hid_summary">Laden Sie zusätzliche HID-Sprachen herunter oder entwerfen Sie neue HID-Layouts.</string>
+    <string name="settings_usb_title">USB Connect Start</string>
+    <string name="settings_usb_desc">Die Schaltfläche \"Ausführen\" startet den Angriff, sobald USB verbunden ist.</string>
+    <string name="settings_net_title">Netzwerk Socket Connect Start</string>
+    <string name="settings_net_desc">Der Knopf \"Ausführen\" startet den Angriff, wenn Netzwerk-Socket verbunden ist.</string>
+    <string name="setting_about">Info</string>
+    <string name="setting_developer_title">Entwickler</string>
+    <string name="settings_version_title">Version</string>
+    <string name="settings_arch_title">Architektur</string>
+    <string name="settings_lic_title">Lizenzvereinbarung</string>
+    <string name="settings_support">Support</string>
+    <string name="settings_git_title">GitHub Fehlermeldungen</string>
+    <string name="settings_git_desc">Hier klicken, für Fehlermeldungen oder Verbesserungsvorschläge.</string>
+    <string name="settings_locale_title">Lokalisierung</string>
+    <string name="settings_locale_desc">Zur App-Lokalisierung beitragen.</string>
+    <string name="release">Distribution</string>
+    <string name="releaseNetHunter">NetHunter App Store</string>
+    <string name="releaseGitHub">GitHub-Veröffentlichung</string>
+    <string name="releaseGitHubNightly">GitHub Nightly</string>
+    <string name="releaseTest">Debug-Veröffentlichung</string>
+    <string name="releaseOthers">Nicht unterstützte Version</string>
+    <string name="btn_cancel">Abbrechen</string>
+    <string name="btn_save">Speichern</string>
+    <string name="file_saved">Gespeichert</string>
+    <string name="title_open_file">Datei öffnen</string>
+    <string name="title_delete_file">Datei löschen</string>
+    <string name="file_deleted">Gelöscht</string>
+    <string name="file_name">Dateiname</string>
+    <string name="title_save_file">Datei speichern</string>
+    <string name="hid_version">Version: %d</string>
+    <string-array name="modes">
+        <item>USB Kabel</item>
+        <item>Netzwerk Socket</item>
+    </string-array>
+    <string-array name="hidLanguages">
+        <item>Amerikanisches Englisch</item>
+        <item>Türkisch</item>
+        <item>Schwedisch</item>
+        <item>Slowenisch</item>
+        <item>Russisch</item>
+        <item>Portugiesisch</item>
+        <item>Norwegisch</item>
+        <item>Italienisch</item>
+        <item>Kroatisch</item>
+        <item>Englisch (Großbritannien)</item>
+        <item>Französisch</item>
+        <item>Finnisch</item>
+        <item>Spanisch</item>
+        <item>Dänisch</item>
+        <item>Deutsch</item>
+        <item>Kanadisches Französisch</item>
+        <item>Portugiesisch (Brasilien)</item>
+        <item>Weißrussisch</item>
+        <item>Ungarisch</item>
+    </string-array>
+    <string-array name="dark_theme_list">
+        <item>Auto</item>
+        <item>Tag</item>
+        <item>Nacht</item>
+    </string-array>
+</resources>

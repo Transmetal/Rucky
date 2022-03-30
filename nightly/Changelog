@@ -1,0 +1,18 @@
+• Bump preference from 1.2.0-rc01 to 1.2.0
+• Merge pull request #65 from mayankmetha/dependabot/gradle/androidx.preference-preference-1.2.0
+• Added Android Tiramisu monochrome launcher icon
+• Bump certificatetransparency-android from 1.0.0 to 1.1.0 (#67)
+• Bump certificatetransparency-android from 1.0.0 to 1.1.0 in /app (#66)
+• Added few locale templates
+• Updated locale
+• Updated Readme
+• Added locale template A-G
+• Added locale templates A-J,W-Z
+• Added locale templates A-L,W-Z
+• Added locale templates A-M,W-Z
+• Added locale templates A-O,W-Z
+• Added locale templates A-Q,W-Z
+• Added locale templates A-R,U-Z
+• Added locale templates A-S,U-Z
+• Supporting 210 locale.
+• Android 13 DP1 Support added
