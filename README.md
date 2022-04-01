@@ -1,40 +1,4 @@
 # Rucky 
-[![GitHub](https://img.shields.io/github/license/mayankmetha/Rucky)](https://github.com/mayankmetha/Rucky/blob/master/LICENSE)
-[![Crowdin](https://badges.crowdin.net/rucky/localized.svg)](https://crwd.in/rucky)
-[![Android](https://img.shields.io/badge/android-6.x%2B-lightgrey)](https://github.com/mayankmetha/Rucky)
-[![Architecture](https://img.shields.io/badge/architecture-Independent-blueviolet)](https://github.com/mayankmetha/Rucky)
-[![Kernel <=3.18](https://img.shields.io/badge/kernel%20%3C%3D3.18-USB%20HID%20Patch%20Required-red)](https://github.com/mayankmetha/Rucky)
-[![Kernel >=3.19](https://img.shields.io/badge/kernel%20%3E%3D3.19-ConfigFS%20Composite%20Gadget%20for%20USB%20Required-red)](https://github.com/mayankmetha/Rucky)
-
----
-
-# Status
-## Build
-[![Debug Build](https://github.com/mayankmetha/Rucky/actions/workflows/debug_build.yml/badge.svg)](https://github.com/mayankmetha/Rucky/actions/workflows/debug_build.yml)
-[![Github Nightly Build](https://github.com/mayankmetha/Rucky/actions/workflows/github_nightly_build.yml/badge.svg)](https://github.com/mayankmetha/Rucky/actions/workflows/github_nightly_build.yml)
-[![Github Release Build](https://github.com/mayankmetha/Rucky/actions/workflows/github_release_build.yml/badge.svg)](https://github.com/mayankmetha/Rucky/actions/workflows/github_release_build.yml)
-[![Nethunter Build](https://github.com/mayankmetha/Rucky/actions/workflows/nethunter_build.yml/badge.svg)](https://github.com/mayankmetha/Rucky/actions/workflows/nethunter_build.yml)
-
-## Code Analysis
-[![CodeQL](https://github.com/mayankmetha/Rucky/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/mayankmetha/Rucky/actions/workflows/codeql-analysis.yml)
-[![mobsfscan sarif](https://github.com/mayankmetha/Rucky/actions/workflows/mobsfscan_sarif.yml/badge.svg)](https://github.com/mayankmetha/Rucky/actions/workflows/mobsfscan_sarif.yml)
-
----
-
-# Download
-## GitHub
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/mayankmetha/Rucky)](https://github.com/mayankmetha/Rucky/releases/latest)
-[![Github nightly](https://img.shields.io/badge/nightly-v2.3%20(541)-blueviolet)](https://raw.githubusercontent.com/mayankmetha/Rucky/master/nightly/rucky-nightly.apk)
-
-## Nethunter App Store
-[![Nethuter Release](https://img.shields.io/badge/release-v2.2-blue)](https://store.nethunter.com/en/packages/com.mayank.rucky/)
-
----
-
-# Readme
-An android app to perform USB HID Attacks (Rubber Duck) in multiple ways:
-- <b><i>Wired Mode:</i></b> Needs a custom kernel with usb hid feature or a kernel with configfs to be enabled for this mode to be used.
-- <b><i>Wireless:</i></b> Provides a socket server to extend this USB HID with external tools/hardwares like raspberry pi, socket services, nc, and much more.
 
 ---
 
@@ -599,9 +563,3 @@ Status| Feature
 - [Android Infosec Facebook Post](https://www.facebook.com/AndroidInfoSec/posts/4101537619869708)
 
 ---
-
-# Legacy Work
-[![RPi](https://img.shields.io/badge/Raspberry%20Pi-0%20W-maroon)](https://github.com/mayankmetha/Rucky-Ext-RPi)
-[![HID](https://img.shields.io/badge/Project-Legacy%20HID-lightgreen)](https://github.com/mayankmetha/Rucky-Legacy-HID)
-[![Android](https://img.shields.io/badge/android-4.4.x-green)](https://github.com/mayankmetha/Rucky/releases/tag/1.9)
-[![Android](https://img.shields.io/badge/android-5.x-green)](https://github.com/mayankmetha/Rucky/releases/tag/1.9)
